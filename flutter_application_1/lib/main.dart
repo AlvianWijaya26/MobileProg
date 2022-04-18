@@ -13,13 +13,13 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Flutter Demo'),
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.lightBlue,
         ),
 
-          backgroundColor: Colors.amber,
-            body: Center(
+          body: Center(
               child: Column(children: [
-                Image(image: NetworkImage('https://waste4change.com/blog/wp-content/uploads/niko-photos-tGTVxeOr_Rs-unsplash-1536x1024.jpg'),
+                Image(
+                  image: AssetImage('assets/images/logo.png'),
                 ),
               Text('Hello World'),
             ],
